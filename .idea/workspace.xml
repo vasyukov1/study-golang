@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e46875ea-53c1-49ee-ab66-538cda73a2ed" name="Changes" comment="" />
+    <list default="true" id="e46875ea-53c1-49ee-ab66-538cda73a2ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/http/query_params.go" beforeDir="false" afterPath="$PROJECT_DIR$/network/http/query_params.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +52,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
+    "Go Build.client.executor": "Run",
+    "Go Build.go build client.go.executor": "Run",
+    "Go Build.go build lists.go.executor": "Run",
+    "Go Build.go build study-golang.executor": "Run",
+    "Go Build.go build study-golang/network.executor": "Run",
+    "Go Build.go build study-golang/network/udp.executor": "Run",
+    "Go Build.server.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -66,6 +77,30 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/parallelism" />
     </key>
+  </component>
+  <component name="RunManager" selected="Go Build.client">
+    <configuration name="client" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="study-golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="study-golang" />
+      <directory value="$PROJECT_DIR$/network/udp" />
+      <filePath value="$PROJECT_DIR$/network/http/get.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="study-golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="study-golang" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/network/udp/server/server.go" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.client" />
+      <item itemvalue="Go Build.server" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

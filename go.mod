@@ -1,3 +1,3 @@
-module work_with_time
+module study-golang
 
 go 1.23rc2
